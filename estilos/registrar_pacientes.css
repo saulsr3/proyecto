@@ -1,0 +1,50 @@
+.btn__submit,.btn__reset {
+ border: none;
+ background: #337ab7;
+ color: white;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+}
+.btn__submit:hover {
+ background: rgba(0,0,0,0);
+ color: blue;
+ box-shadow: inset 0 0 0 3px #3a7999;
+}
+.btn__reset:hover{
+	background: rgba(0,0,0,0);
+ color: blue;
+ box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+
+	strong{ color: #337ab7;}
+	#contenedor{
+background-color: #f8f8f8;
+         
+	padding: 15px;
+                margin: 0 auto; 
+                height: 400px;
+                width: 1025px;
+             
+                border-radius: 10px 10px 10px 10px;
+                box-shadow: activecaption 10px 10px 10px;
+	}
+	.input,.combo{
+	width: 300px;	
+	background-color: #EFEFEF;
+	padding: 1rem;
+	margin: 1rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .5s;
+}
+.input,.combo{
+	font-size: 18px;
+}
+.input:focus {
+	border-bottom: solid #F39B53 .2rem;
+}
